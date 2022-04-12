@@ -6,7 +6,7 @@
         <p>热门推荐</p>
       </div>
 
-      <div class="cateRecommend" slot="center">
+      <div class="center" slot="center">
         <span>华语</span>
         <span>流行</span>
         <span>摇滚</span>
@@ -80,6 +80,7 @@ export default {
 
 .right p:hover {
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .right img {
